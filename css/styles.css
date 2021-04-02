@@ -60,6 +60,16 @@
 }
 /* navbar styling end*/
 
+/* menu btn styling start*/
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+/* menu btn styling end*/
+
+
 /* home section styling */
 .home{
     display:flex;
