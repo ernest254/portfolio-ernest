@@ -121,14 +121,11 @@
 }
 /* home section styling end */
 
-/*about-me section styling start*/
+/*similar section syling start*/
 section{
     padding: 100px 0;
 }
-.about-me{
-    font-family: 'Poppins', sans-serif;
-}
-.about-me .title{
+section .title{
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -137,7 +134,7 @@ section{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-.about-me .title::before{
+section .title::before{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -147,8 +144,7 @@ section{
     background: #111;
     transform: translateX(-50%)
 }
-.about-me .title::after{
-    content: "who Ernest is";
+section .title::after{
     position: absolute;
     bottom: -14px;
     left: 50%;
@@ -157,6 +153,16 @@ section{
     padding: 5px;
     background: #fff;
     transform: translateX(-50%)
+}
+/*similar section styling end*/
+
+/*about-me section styling start*/
+.about-me, .projects-content{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-me .title::after{
+    content: "who Ernest is";
 }
 .about-me .about-me-content{
     display: flex;
@@ -207,6 +213,14 @@ section{
 }
 
 /*about-me section styling end*/
+
+
+/*projects section styling start*/
+.projects-content{
+    
+}
+
+/*projects section styling end*/
 
 
 
