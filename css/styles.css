@@ -68,9 +68,7 @@
     cursor: pointer;
     display: none;
 }
-
 /* menu btn styling end*/
-
 
 /* home section styling */
 .home{
@@ -80,15 +78,12 @@
     color: #fff;
     min-height: 500px;
     font-family:'Ubuntu', sans-serif;
-
 }
 .home .max-width{
     margin: auto 0 auto 40px;
-
 }
 .home .home-content .text-1{
     font-size: 27px;
-
 }
 .home .home-content .text-2{
     font-size: 75px;
@@ -160,7 +155,6 @@ section .title::after{
 .about-me, .projects{
     font-family: 'Poppins', sans-serif;
 }
-
 .about-me .title::after{
     content: "who Ernest is";
 }
@@ -169,7 +163,6 @@ section .title::after{
     flex-wrap: wrap;
     align-items:center;
     justify-content: space-between;
-
 }
 .about-me .about-me-content .left{
     width: 45%;
@@ -205,15 +198,12 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
-
 }
 .about-me .about-me-content .right a:hover{
     color: crimson;
     background: none;
 }
-
 /*about-me section styling end*/
-
 
 /*projects section styling start*/
 .projects{
@@ -239,7 +229,6 @@ section .title::after{
 }
 .projects .projects-content .card:hover{
     background: crimson;
-
 }
 .projects .projects-content .box{
     transition: all 0.3s ease;
@@ -254,18 +243,13 @@ section .title::after{
 }
 .projects .projects-content .card:hover i{
     color: #fff;
-
 }
 .projects .projects-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
-
 /*projects section styling end*/
-
-
 
 /*responsive media query start*/
 @media (max-width: 1300px){
@@ -284,17 +268,14 @@ section .title::after{
         padding: 0 50px;
     }
 }
-
 @media (max-width: 947px){
     .menu-btn{
         display: block;
         z-index: 999;
     }
-
     .menu-btn i.active:before{
-        content: "\f00d";
+        content: "f00d";
     }
-    
     .navbar .menu{
         position: fixed;
         height: 100vh;
@@ -309,25 +290,20 @@ section .title::after{
     .navbar .menu.active{
         left: 0%;
     }
-
     .navbar .menu li{
         display: block;
     }
-
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
-
     .home .home-content .text-2{
         font-size: 70px;
     }
-
     .home .home-content .text-3{
         font-size: 35px;
     }
-
     .home .home-content a{
         font-size: 23px;
         padding: 10px 30px;
@@ -346,36 +322,34 @@ section .title::after{
     .about-me .about-me-content .right{
         flex: 100%;
     }
-   
-
+    .projects .projects-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+}  
 @media (max-width: 690px){
     .max-width{
         padding: 0 23px;
     }
-
     .home .home-content .text-2{
         font-size: 60px;
     }
-
     .home .home-content .text-3{
         font-size: 32px;
     }
+    .home .home-content a{
+        font-size: 20px;
+    }
+    .projects .projects-content .card{
+        width: 100%;
+    }
 }
-
-.home .home-content a{
-    font-size: 20px;
-    /*padding: 9px 25px;*/
-}
-
 @media (max-width: 500px){
     .home .home-content .text-2{
         font-size: 50px;
     }
-
     .home .home-content .text-3{
         font-size: 27px;
     }
-}
-    
 }
 /*responsive media query end*/
