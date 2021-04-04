@@ -16,9 +16,8 @@ CSS
 Javascript
 ## Support and contact details
 Reach out to me the developer on my phone 0700279351 or email ernest.mucheru@student.moringaschool.com
-##
-Link to live site on Github pages.
-
+##**Link to live site on Github pages.**
+https://ernest254.github.io/portfolio-ernest/
 ### License
 Site uses GNU license.It guarantees end users the freedom to run, study, share, and modify the software.
 Copyright (c) {2021} **{Ernest Mucheru}**
