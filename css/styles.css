@@ -120,6 +120,9 @@
 section{
     padding: 100px 0;
 }
+.about-me, .projects, footer{
+    font-family: 'Poppins', sans-serif;
+}
 section .title{
     position: relative;
     text-align: center;
@@ -152,9 +155,7 @@ section .title::after{
 /*similar section styling end*/
 
 /*about-me section styling start*/
-.about-me, .projects{
-    font-family: 'Poppins', sans-serif;
-}
+
 .about-me .title::after{
     content: "who Ernest is";
 }
@@ -250,6 +251,21 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 /*projects section styling end*/
+
+/*footer section styling start*/
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+/*footer section styling start*/
 
 /*responsive media query start*/
 @media (max-width: 1300px){
