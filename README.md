@@ -10,6 +10,7 @@ The website includes links to past projects, my personal curriculum vitae and mo
 * Internet Connection to facilitate communication
 ## Known Bugs
 Site is failing to display the landing page banner image when published on github. Bug has not yet been discovered and is still in research phase. This bug is affecting the visbility of text and buttons on the landing page.
+The links in the projects panes only work when you click on the project titles. Research is underway to try find a way to link the whole project pane to the their respective sites.
 ## Technologies Used
 HTML
 CSS
